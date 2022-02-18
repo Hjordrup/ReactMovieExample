@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     axios
       .get(
-        'https://api.themoviedb.org/3/movie/popular?api_key=8b00462fd15033a058b9ae892f063a7b&language=en-US&page=1'
+        'https://api.themoviedb.org/3/movie/popular?api_key=APIb&language=en-US&page=1'
       )
       .then(function (response) {
         console.log(response.data.results);
