@@ -1,0 +1,16 @@
+.mainBody {
+  display: flex;
+  gap: 100px;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.plot {
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.poster {
+  width: 100%;
+}
